@@ -4,7 +4,7 @@
 **Register Number:** RA2411026050284 / RA2411026050291 
 **Class:** AIML-E  
 
-This repository contains the interactive solutions to two AI Problem Statements implemented using Python and Streamlit to provide robust graphical user interfaces.
+This repository contains the interactive solutions to two AI Problem Statements implemented using a Python Flask backend and a modern HTML/CSS/JS frontend.
 
 ---
 
@@ -14,7 +14,7 @@ This repository contains the interactive solutions to two AI Problem Statements 
 A web-based Tic-Tac-Toe game where the user can intuitively click and play against an AI opponent. The AI evaluates possible futures and guarantees the best move every single time, making it an unbeatable opponent.
 
 ### Algorithms Used
-The AI plays using two algorithms that you can dynamically toggle between:
+The AI plays using two algorithms running in parallel for direct demonstration:
 - **Minimax Algorithm**: Evaluates every possible move assuming the user also plays perfectly.
 - **Alpha-Beta Pruning**: An optimized version of Minimax that significantly reduces the number of game states evaluated without losing accuracy.
 
@@ -44,26 +44,19 @@ The UI will process the user's grid state and provide realtime feedback:
 
 To run the interactive applications locally, ensure you have Python installed, and follow these instructions:
 
-1. **Clone the repository** (if not already local):
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/niwaesmathavan-pixel/AI-Problem-Solving-Assignment-Reg-No-RA2411026050284--Reg-No-RA2411026050291.git
    cd AI-Problem-Solving-Assignment
    ```
 
 2. **Install the requirements**:
-   We use the modern UI framework `Streamlit`.
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Run Problem 1 (Tic-Tac-Toe)**
+3. **Run the Server**
    ```bash
-   python -m streamlit run Problem_1_TicTacToe/app.py
+   python app.py
    ```
-   *Your browser will automatically open with the game UI.*
-
-4. **Run Problem 6 (Sudoku Solver)**
-   ```bash
-   python -m streamlit run Problem_6_Sudoku/app.py
-   ```
-   *Your browser will automatically open with the puzzle UI.*
+   *And open your browser to `http://localhost:5000` to view the unified application menu!*
