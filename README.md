@@ -1,7 +1,7 @@
 # AI Problem Solving Assignment
 
-**Name:** Niwaes M  
-**Register Number:** RA2411026050284  
+**Name:** Niwaes M  / Tamilarsan A
+**Register Number:** RA2411026050284 / RA2411026050291 
 **Class:** AIML-E  
 
 This repository contains the interactive solutions to two AI Problem Statements implemented using Python and Streamlit to provide robust graphical user interfaces.
